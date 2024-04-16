@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #F3F8FF;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo-container img {
+    margin-right: 10px;
+}
+header img{
+    display: inline-block;
+    width: 10%;
+    height: auto;
+}
+header{
+    background: linear-gradient(to right, #E26EE5 0%, #7E30E1 100%);
+    height: fit-content;
+    padding: 0.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header nav {
+    /* display: inline-block; */
+    float: right;
+    
+}
+/* test commit */
+header img {
+    display: inline-block;
+    width: 5%;
+    height: auto;
+   
+}
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex; /* Change to flex */
+    flex-direction: row; /* Set flex-direction to row */
+}
+header nav li a{
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+    font-size:1em;
+    margin-right: 5vh;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    padding: 6px;
+    border-radius: 0.5vh;
+   
+}
+header nav li a:hover{
+    background-color: #49108B;
+    color: whitesmoke;
+    cursor:pointer;
+    transition: 0.2s;
+}
+#active{
+    background-color: #49108B;
+    color: whitesmoke;
+    cursor:pointer;
+}
+header nav li{
+    display: inline-block;
+    font-size: 1.2em;
+}
+.main, .sign-up, .hero-text{
+    height: 80vh;
+}
+
+.main{
+    display: flex;
+    flex: row;
+    
+}
+
+.sign-up, .hero-text{
+    display: inline-block;
+}
+.sign-up{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.hero-text{
+    width: 65%;
+}
+.sign-up-panel{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    /* padding: 5vh; */
+    margin: 10%;
+    width: 65%;
+    height: 75%;
+    background-color: #fff;
+    
+    
+}
+#sign-in{
+    padding: 10px 0 10px 0;
+    font-size: 1.5em;
+    background-color: #7E30E1;
+    border-top-left-radius: 80vh;
+    border-top-right-radius: 80vh;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#image{
+    margin-top: 3vh;
+    width: 30%;
+    height: auto;
+    border-radius: 30vh;
+    border: 2px solid black;
+}
+hr{
+    margin-top: 2vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+#username, #password{
+    display: block;
+    margin-top: 2vh ;
+    padding: 1vh;
+    border: 1px solid black;
+    border-radius: 10vh;
+    width: 25vh;
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-holder img{
+ position: absolute;
+  margin-top: 9px;
+  margin-left: 10vh;
+  height: 15px;
+} 
+#no-account {
+    margin-top: 2vh;
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#no-account a{
+    text-decoration: none;
+    color: gray;
+}
+#submit{
+    margin-top: 3vh;
+    padding: 1vh;
+    width: 10vh;
+    background-color: #7E30E1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#submit:active{
+    background-color: #49108B;
+
+}
+.hero-text{
+    /* display: flex; */
+    margin-top: 10vh;
+}
+.hero-text h1{
+    font-size: 10rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hero-text p{
+    font-size: 2.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #E26EE5 0%, #7E30E1 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
