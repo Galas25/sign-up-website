@@ -31,6 +31,7 @@ header nav {
     /* display: inline-block; */
     float: right;
     
+    
 }
 /* test commit */
 header img {
@@ -40,6 +41,7 @@ header img {
    
 }
 header nav ul {
+
     margin: 0;
     padding: 0;
     display: flex; /* Change to flex */
@@ -55,6 +57,7 @@ header nav li a{
     font-weight: bold;
     padding: 6px;
     border-radius: 0.5vh;
+    
    
 }
 header nav li a:hover{
@@ -182,4 +185,37 @@ hr{
     background: linear-gradient(to right, #E26EE5 0%, #7E30E1 100%);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.landing{
+    background-color: #ffffff;
+    margin-left: 5vh;
+    height: fit-content;
+    border-radius: 1vh;
+    padding: 5vh 10vh 5vh 7vh;
+    display: block;
+    border: 1px solid #ccc;
+}
+.boxes{
+    background-color: #fff;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    border-radius: 1vh;
+    display: inline-block;
+    width: 25vh;
+    height: 25vh;
+    border: 1px solid #ccc;
+}
+.boxes p{
+    display: flex;
+    align-items:center;
+    justify-content: center; /* Align items horizontally in the center */
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#number{
+    padding-top: 8vh;
+    font-weight: lighter;
 }

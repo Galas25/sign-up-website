@@ -22,15 +22,20 @@
     </header>
 </head>
 <body>
+    <script>
+    function myFunction() {
+        alert("SIGN UP SUCCESSFULLY");
+      }
+      </script>
     <div class="main">
         <div class="sign-up">
-`
+
             <div class="sign-up-panel">
-                <p id="sign-in">SIGN IN</p>
+                <p id="sign-in">SIGN UP</p>
                 <img id="image" src="IMAGES/user.png" alt="">
                 <hr>
                 <center>
-                <form action="./landing page/landing.html">
+                <form action="./index.html">
                     <div class="input-holder">
                         <img src="IMAGES/user.png" alt="">
                         <input type="text" name="username" id="username" placeholder="Username" required>
@@ -39,9 +44,13 @@
                         <img src="IMAGES/padlock.png" alt="">
                         <input type="password" name="password" id="password" placeholder="Password" required>
                     </div>
+                    <div class="input-holder">
+                        <img src="IMAGES/padlock.png" alt="">
+                        <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+                    </div>
                    
-                    <p id="no-account"><a href="signup.html">Don't have an account?</a></p>
-                    <input type="submit" id="submit" value="LOGIN" >
+                    <p id="no-account"><a href="index.html">Already have an account?</a></p>
+                    <input type="submit" id="submit" value="SIGN UP" onclick="myFunction()">
                 </form>
             </center>
             
